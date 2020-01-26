@@ -10,6 +10,7 @@ Once extended (RetrieveableTask.java), this allows for Thread Safe (ThreadSafe.j
 ```
 <br/>
 Finally to return the value, one simple has to set the object "obj" value, as such:
+
 ```java
   public class ExampleTask extends RetrievableTask<String>{
       @Overide
