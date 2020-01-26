@@ -44,8 +44,8 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
       t.start();
       
       //Print the results of each respective Task
-      System.out.println(retrievable.getVal()); //Since this is a RetrievableTask, the value of "retrievable" is 
-      //start the Non-Retrievable Task using an anonymous Thread                         blocked until not null.
+      System.out.println(retrievable.getVal()); //Since this is a RetrievableTask, the value of "retrievable" 
+      //start the Non-Retrievable Task using an anonymous Thread                   is blocked until not null.
       new Thread(nonRetrievable).start();
     }
     
