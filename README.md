@@ -71,9 +71,9 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
   }
 ```
 Console:</br>
-<code>
+```
   Thread #2 started...
   Thread #1 started...
   Finished with Retrievable task!
   Finished with Non-Retrievable task!
-</code>
+```
