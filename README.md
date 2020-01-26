@@ -34,11 +34,11 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
 ```java
   public class Main{
   
-    private Task nonRetrievable, retrievable;
+    private Task retrievable, nonRetrievable;
     
     public static void main(String[] args){
-      nonRetrievable = new NonRetrievableTask();
-      retrieveable = new RetrievableTask();
+      retrieveable = new RTask();
+      nonRetrievable = new NRTask();
       
       //start the Retrievable Task
       Thread t = new Thread(retrievable);
@@ -51,7 +51,7 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
                                                   of "retrievable" is blocked until not null.
     }
     
-    private class FullTask extends RetrievableTask<String>{
+    private class RTask extends RetrievableTask<String>{
       @Override
       protected void execute(){
         //do work, execute business logic
@@ -60,7 +60,7 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
       }
     }
     
-    private class EmptyTask extends NonRetrievableTask{
+    private class NRTask extends NonRetrievableTask{
       @Override
       protected void execute(){
         //do work, execute business logic
