@@ -39,15 +39,16 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
     public static void main(String[] args){
       nonRetrievable = new NonRetrievableTask();
       retrieveable = new RetrievableTask();
+      
       //start the Retrievable Task
       Thread t = new Thread(retrievable);
       t.start();
+      //start the Non-Retrievable Task using an anonymous Thread                   
+      new Thread(nonRetrievable).start();
       
       //Print the results of each respective Task
       System.out.println(retrievable.getVal()); //Since this is a RetrievableTask, the value  
                                                   of "retrievable" is blocked until not null.
-      //start the Non-Retrievable Task using an anonymous Thread                   
-      new Thread(nonRetrievable).start();
     }
     
     private class FullTask extends RetrievableTask<String>{
