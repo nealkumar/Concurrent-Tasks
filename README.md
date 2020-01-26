@@ -47,8 +47,8 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
       new Thread(nonRetrievable).start();
       
       //Print the results of each respective Task
-      System.out.println(retrievable.getVal()); //Since this is a RetrievableTask, the value  
-                                                  of "retrievable" is blocked until not null.
+      System.out.println(retrievable.getVal()); // Since this is a RetrievableTask, the value  
+                                                // of "retrievable" is blocked until not null.
     }
     
     private class RTask extends RetrievableTask<String>{
