@@ -1,4 +1,5 @@
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![HitCount](http://hits.dwyl.io/Naereen/badges.svg)](http://hits.dwyl.io/Naereen/badges)
 # ConcurrentTasks Java Library
 An easy-to-consume concurrency library allowing for "Runnable Tasks" to execute business logic in a thread safe manner. Presently, there are 2 types of Tasks: Retrievable and Non-Retrievable.
 ## Non-Retrievable Tasks
