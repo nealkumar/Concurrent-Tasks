@@ -8,6 +8,7 @@
 	<version>1.10-SNAPSHOT</version>
 
 	<name>Concurrent Tasks</name>
+	<description>An easy-to-consume concurrency library allowing for "Tasks" to execute business logic in a thread safe manner. This library helps users achieve multi-threading in their applications without worrying about synchronization and blocking for race conditions.</description>
 	<!-- FIXME change it to the project's website -->
 	<url>https://github.com/nealkumar/Concurrent-Tasks-Library</url>
 
