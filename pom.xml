@@ -5,7 +5,7 @@
 
 	<groupId>com.nealk.concurrent</groupId>
 	<artifactId>concurrent-tasks</artifactId>
-	<version>1.7-SNAPSHOT</version>
+	<version>1.7</version>
 
 	<name>Concurrent Tasks</name>
 	<!-- FIXME change it to the project's website -->
@@ -53,7 +53,7 @@
 		<connection>scm:git:git://github.com/nealkumar/Concurrent-Tasks-Library.git</connection>
 		<developerConnection>scm:git:git@github.com:nealkumar/Concurrent-Tasks-Library.git</developerConnection>
 		<url>https://github.com/nealkumar/Concurrent-Tasks-Library</url>
-		<tag>HEAD</tag>
+		<tag>v1.7.1</tag>
 	</scm>
 
 	<profiles>
