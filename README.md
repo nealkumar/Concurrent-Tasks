@@ -3,10 +3,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/nealkumar/Concurrent-Tasks-Library/badge.svg?branch=master)](https://coveralls.io/github/nealkumar/Concurrent-Tasks-Library?branch=master)
 # ConcurrentTasks Java Library
 An easy-to-consume concurrency library allowing for "Tasks" to execute business logic in a thread safe manner. This library helps users achieve multi-threading in their applications without worrying about synchronization and blocking for race conditions. Presently, there are 2 types of Tasks: Retrievable and Non-Retrievable.
-## Non-Retrievable Tasks
-Once <code>NonRetrievableTask</code> has been extended, this allows for simple concurrent execution where the business logic executed <i>does <b>not</b></i> need to return back an object. As a result, calling the getVal() method for a NonRetrievableTask throws an UnsupportedOperationException. 
-</br></br>
-Example usages: initializers, message dispatchers, or any standalone time-consuming task which you would like to execute concurrently.
 ## Retrievable Tasks
 Once <code>RetrievableTask</code> is extended, this allows for <code>@ThreadSafe</code> concurrent execution where business logic executed <i>does</i> need to return back an object. As a result, calling the getVal() method for a Retrievable task returns the object of type T (via use of Java generics) - which is blocked until all logic in the execute() method has terminated. 
 <br/><br/>
@@ -30,6 +26,10 @@ Finally to return the value, one simple has to set the value for <code>obj</code
       }
   }
 ```
+## Non-Retrievable Tasks
+Once <code>NonRetrievableTask</code> has been extended, this allows for simple concurrent execution where the business logic executed <i>does <b>not</b></i> need to return back an object. As a result, calling the getVal() method for a NonRetrievableTask throws an UnsupportedOperationException. 
+</br></br>
+Example usages: initializers, message dispatchers, or any standalone time-consuming task which you would like to execute concurrently.
 # Client Usage Examples
 Regardless on the type of <code>Task</code> needed, each respective <code>Task</code> should be wrapped within with a <code>Thread</code> and will begin execution upon calling of the <code>start()</code> or <code>run()</code> methods. The <code>start()</code> method executes the <code>Task</code> in a new thread, while the <code>run()</code> method executes the <code>Task</code> in the same thread.
 <br/><br/>Below is an example of a <code>RetrievableTask</code> and <code>NonRetrievable</code> executing business logic in new threads, and then printing out status messages - based on the designated <code>Task</code> type.
