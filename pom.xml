@@ -5,7 +5,7 @@
 
 	<groupId>com.nealk.concurrent</groupId>
 	<artifactId>concurrent-tasks</artifactId>
-	<version>1.8-SNAPSHOT</version>
+	<version>1.7-SNAPSHOT</version>
 
 	<name>Concurrent Tasks</name>
 	<!-- FIXME change it to the project's website -->
@@ -26,6 +26,10 @@
 	</licenses>
 
 	<distributionManagement>
+		<site>
+			<id>Releases</id>
+			<url>file://${project.build.directory}/Report</url>
+		</site>
 		<snapshotRepository>
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -49,9 +53,8 @@
 		<connection>scm:git:git://github.com/nealkumar/Concurrent-Tasks-Library.git</connection>
 		<developerConnection>scm:git:git@github.com:nealkumar/Concurrent-Tasks-Library.git</developerConnection>
 		<url>https://github.com/nealkumar/Concurrent-Tasks-Library</url>
-		
-	  <tag>HEAD</tag>
-  </scm>
+		<tag>HEAD</tag>
+	</scm>
 
 	<profiles>
 		<!-- GPG Signature on release -->
