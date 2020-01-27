@@ -8,8 +8,8 @@ public interface Task extends Runnable{
 	 * <p>Returns the thread-safe value of Type &lt;?&gt;</p>
 	 * 
 	 * @param <T>
-	 * @return - value of Type &lt?&gt
-	 * @throws InterruptedException
+	 * @return - value of obj - with type &lt;?&gt;
+	 * @exception InterruptedException
 	 * @author nealk
 	 */
 	@ThreadSafe
