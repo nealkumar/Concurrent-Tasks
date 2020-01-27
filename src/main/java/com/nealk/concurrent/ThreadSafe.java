@@ -2,7 +2,7 @@ package com.nealk.concurrent;
 
 /**
  * <h2>Thread Safe Annotation</h2>
- * </br>
+ * <br>
  * <p>
  *  Resources designated as "Thread Safe"
  *  indicate that the respective resource has

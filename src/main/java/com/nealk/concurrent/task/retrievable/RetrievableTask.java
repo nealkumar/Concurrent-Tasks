@@ -24,10 +24,10 @@ public abstract class RetrievableTask<T> implements Task{
 	protected abstract void execute();
 
 	/**
-	 * Blocks until {@link obj} of type &ltT&gt is not null. Returns the {@link obj}.
-	 * </br></br>
+	 * Blocks until {@link obj} of type &lt;T&gt; is not null. Returns the {@link obj}.
+	 * <br><br>
 	 * Note that compile-time type checking is enabled. The usage 
-	 * of Java Generics nullifies the compiler warning: {@link unchecked}.
+	 * of Java Generics nullifies the compiler warning "unchecked".
 	 */
 	@SuppressWarnings("unchecked") 
 	@Override 
