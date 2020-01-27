@@ -1,7 +1,7 @@
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 [![Gitter](https://img.shields.io/gitter/room/DAVFoundation/DAV-Contributors.svg?style=flat-square)](https://gitter.im/Concurrent-Tasks/community)
 [![Coverage Status](https://coveralls.io/repos/github/nealkumar/Concurrent-Tasks-Library/badge.svg?branch=master)](https://coveralls.io/github/nealkumar/Concurrent-Tasks-Library?branch=master)
-# ConcurrentTasks Java Library
+# Concurrent Tasks Java Library
 An easy-to-consume concurrency library allowing for "Tasks" to execute business logic in a thread safe manner. This library helps users achieve multi-threading in their applications without worrying about synchronization and blocking for race conditions. Presently, there are 2 types of Tasks: Retrievable and Non-Retrievable.
 ## Retrievable Tasks
 Once <code>RetrievableTask</code> is extended, this allows for <code>@ThreadSafe</code> concurrent execution where business logic executed <i>does</i> need to return back an object. As a result, calling the getVal() method for a Retrievable task returns the object of type T (via use of Java generics) - which is blocked until all logic in the execute() method has terminated. 
