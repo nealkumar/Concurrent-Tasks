@@ -27,8 +27,8 @@
 
 	<distributionManagement>
 		<site>
-			<id>Releases</id>
-			<url>file://${project.build.directory}/Report</url>
+			<id>http://nealk.com</id>
+			<url>http://nealk.com</url>
 		</site>
 		<snapshotRepository>
 			<id>ossrh</id>
@@ -182,6 +182,10 @@
 				<!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
 				<plugin>
 					<artifactId>maven-site-plugin</artifactId>
+					<configuration>
+						<skip>true</skip>
+						<skipDeploy>true</skipDeploy>
+					</configuration>
 					<version>3.7.1</version>
 					<executions>
 						<execution>
