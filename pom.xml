@@ -16,6 +16,16 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
+	
+	<developers>
+		<developer>
+			<name>Neal Kumar</name>
+			<id>1</id>
+			<timezone>EST</timezone>
+			<email>nealk@nealk.com</email>
+			<organization>nealk.com</organization>
+		</developer>
+	</developers>
 
 	<licenses>
 		<license>
