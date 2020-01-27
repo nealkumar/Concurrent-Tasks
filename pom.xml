@@ -47,7 +47,7 @@
 
 	<scm>
 		<connection>scm:git:git://github.com/nealkumar/Concurrent-Tasks-Library.git</connection>
-		<developerConnection>scm:git:git@github.com:nealkumar/nealkumar.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:nealkumar/Concurrent-Tasks-Library.git</developerConnection>
 		<url>https://github.com/nealkumar/Concurrent-Tasks-Library</url>
 		<tag>HEAD</tag>
 	</scm>
