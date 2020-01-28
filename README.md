@@ -81,7 +81,7 @@ Console:</br>
   Finished with Retrievable task!
   Finished with Non-Retrievable task!
 ```
-To import this library into Maven, simply insert the following dependency in your pom.xml:
+To import this library into Maven, simply insert the following dependency in your pom.xml <i>***PENDING SYNC TO MAVEN CENTRAL***</i>:
 ```xml
   <dependency>
     <groupId>com.nealk.concurrent</groupId>
