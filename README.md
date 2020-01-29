@@ -62,8 +62,7 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
       
       //Print the results of each respective Task
       System.out.println(retrievable.getVal()); // Since this is a RetrievableTask, retrievable.getVal()
-                                                // is blocked until its execute() method has completed.
-    }
+    }                                           // is blocked until its execute() method has completed.
     
     private static class RTask extends RetrievableTask<String>{
       @Override
