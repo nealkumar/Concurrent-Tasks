@@ -1,8 +1,8 @@
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![Maven Central](https://img.shields.io/maven-central/v/com.nealk.concurrent/concurrent-tasks.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.nealk.concurrent%22%20AND%20a:%22concurrent-tasks%22)
 [![Gitter](https://img.shields.io/gitter/room/DAVFoundation/DAV-Contributors.svg?style=flat-square)](https://gitter.im/Concurrent-Tasks/community)
 [![Coverage Status](https://coveralls.io/repos/github/nealkumar/Concurrent-Tasks-Library/badge.svg?branch=master)](https://coveralls.io/github/nealkumar/Concurrent-Tasks-Library?branch=master)
 [![Build Status](https://travis-ci.com/nealkumar/Concurrent-Tasks-Library.svg?branch=master)](https://travis-ci.com/nealkumar/Concurrent-Tasks-Library)
-[![Maven Central](https://img.shields.io/maven-central/v/com.nealk.concurrent/concurrent-tasks.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.nealk.concurrent%22%20AND%20a:%22concurrent-tasks%22)
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 # Concurrent Tasks Java Library
 To import this library into Maven, simply insert the following dependency in your pom.xml:
 ```xml
