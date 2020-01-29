@@ -65,7 +65,7 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
                                                 // is blocked until its execute() method has completed.
     }
     
-    private class RTask extends RetrievableTask<String>{
+    private static class RTask extends RetrievableTask<String>{
       @Override
       protected void execute(){
         //do work, execute business logic
@@ -74,7 +74,7 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
       }
     }
     
-    private class NRTask extends NonRetrievableTask{
+    private static class NRTask extends NonRetrievableTask{
       @Override
       protected void execute(){
         //do work, execute business logic
