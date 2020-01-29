@@ -6,11 +6,13 @@
 # Maven Central Dependency
 To import this library into Maven, simply insert the following dependency in your pom.xml:
 ```xml
-  <dependency>
-    <groupId>com.nealk.concurrent</groupId>
-    <artifactId>concurrent-tasks</artifactId>
-    <version>1.10</version>
-  </dependency>
+  <dependencies>
+    <dependency>
+      <groupId>com.nealk.concurrent</groupId>
+      <artifactId>concurrent-tasks</artifactId>
+      <version>1.10</version>
+    </dependency>
+  </dependencies>
 ```
 # Concurrent Tasks Java Library
 The Concurrent Tasks Library is an easy-to-consume Java concurrency library allowing for "Tasks" to execute business logic in a thread safe manner. This library helps users achieve multi-threading in their applications without worrying about synchronization and blocking for race conditions. Presently, there are 2 types of Tasks: Retrievable and Non-Retrievable.
