@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/nealkumar/Concurrent-Tasks-Library/badge.svg?branch=master)](https://coveralls.io/github/nealkumar/Concurrent-Tasks-Library?branch=master)
 [![Build Status](https://travis-ci.com/nealkumar/Concurrent-Tasks-Library.svg?branch=master)](https://travis-ci.com/nealkumar/Concurrent-Tasks-Library)
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
-# Concurrent Tasks Java Library
+# Maven Central Dependency
 To import this library into Maven, simply insert the following dependency in your pom.xml:
 ```xml
   <dependency>
@@ -12,6 +12,7 @@ To import this library into Maven, simply insert the following dependency in you
     <version>1.10</version>
   </dependency>
 ```
+# Concurrent Tasks Java Library
 The Concurrent Tasks Library is an easy-to-consume Java concurrency library allowing for "Tasks" to execute business logic in a thread safe manner. This library helps users achieve multi-threading in their applications without worrying about synchronization and blocking for race conditions. Presently, there are 2 types of Tasks: Retrievable and Non-Retrievable.
 
 ### Retrievable Tasks
