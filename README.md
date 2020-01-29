@@ -4,6 +4,14 @@
 [![Build Status](https://travis-ci.com/nealkumar/Concurrent-Tasks-Library.svg?branch=master)](https://travis-ci.com/nealkumar/Concurrent-Tasks-Library)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser/badge.svg)](https://search.maven.org/artifact/com.nealk.concurrent/concurrent-tasks/1.10/jar)
 # Concurrent Tasks Java Library
+To import this library into Maven, simply insert the following dependency in your pom.xml:
+```xml
+  <dependency>
+    <groupId>com.nealk.concurrent</groupId>
+    <artifactId>concurrent-tasks</artifactId>
+    <version>1.10</version>
+  </dependency>
+```
 An easy-to-consume concurrency library allowing for "Tasks" to execute business logic in a thread safe manner. This library helps users achieve multi-threading in their applications without worrying about synchronization and blocking for race conditions. Presently, there are 2 types of Tasks: Retrievable and Non-Retrievable.
 
 ### Retrievable Tasks
@@ -82,12 +90,4 @@ Console:</br>
   Thread #1 started...
   Finished with Retrievable task!
   Finished with Non-Retrievable task!
-```
-To import this library into Maven, simply insert the following dependency in your pom.xml <i>***PENDING SYNC TO MAVEN CENTRAL***</i>:
-```xml
-  <dependency>
-    <groupId>com.nealk.concurrent</groupId>
-    <artifactId>concurrent-tasks</artifactId>
-    <version>1.10</version>
-  </dependency>
 ```
