@@ -2,7 +2,7 @@
 [![Gitter](https://img.shields.io/gitter/room/DAVFoundation/DAV-Contributors.svg?style=flat-square)](https://gitter.im/Concurrent-Tasks/community)
 [![Coverage Status](https://coveralls.io/repos/github/nealkumar/Concurrent-Tasks-Library/badge.svg?branch=master)](https://coveralls.io/github/nealkumar/Concurrent-Tasks-Library?branch=master)
 [![Build Status](https://travis-ci.com/nealkumar/Concurrent-Tasks-Library.svg?branch=master)](https://travis-ci.com/nealkumar/Concurrent-Tasks-Library)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser/badge.svg)](https://search.maven.org/artifact/com.nealk.concurrent/concurrent-tasks/1.10/jar)
+[![Maven Central](https://img.shields.io/maven-central/v/com.nealk.concurrent/concurrent-tasks.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.nealk.concurrent%22%20AND%20a:%22concurrent-tasks%22)
 # Concurrent Tasks Java Library
 To import this library into Maven, simply insert the following dependency in your pom.xml:
 ```xml
