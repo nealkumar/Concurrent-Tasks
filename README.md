@@ -1,8 +1,22 @@
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![Maven Central](https://img.shields.io/maven-central/v/com.nealk.concurrent/concurrent-tasks.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.nealk.concurrent%22%20AND%20a:%22concurrent-tasks%22)
 [![Gitter](https://img.shields.io/gitter/room/DAVFoundation/DAV-Contributors.svg?style=flat-square)](https://gitter.im/Concurrent-Tasks/community)
 [![Coverage Status](https://coveralls.io/repos/github/nealkumar/Concurrent-Tasks-Library/badge.svg?branch=master)](https://coveralls.io/github/nealkumar/Concurrent-Tasks-Library?branch=master)
+[![Build Status](https://travis-ci.com/nealkumar/Concurrent-Tasks-Library.svg?branch=master)](https://travis-ci.com/nealkumar/Concurrent-Tasks-Library)
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+# Maven Central Dependency
+To import this library into Maven, simply insert the following dependency in your pom.xml:
+```xml
+  <dependencies>
+    <dependency>
+      <groupId>com.nealk.concurrent</groupId>
+      <artifactId>concurrent-tasks</artifactId>
+      <version>1.10</version>
+    </dependency>
+  </dependencies>
+```
 # Concurrent Tasks Java Library
-An easy-to-consume concurrency library allowing for "Tasks" to execute business logic in a thread safe manner. This library helps users achieve multi-threading in their applications without worrying about synchronization and blocking for race conditions. Presently, there are 2 types of Tasks: Retrievable and Non-Retrievable.
+The Concurrent Tasks Library is an easy-to-consume Java concurrency library allowing for "Tasks" to execute business logic in a thread safe manner. This library helps users achieve multi-threading in their applications without worrying about synchronization and blocking for race conditions. Presently, there are 2 types of Tasks: Retrievable and Non-Retrievable.
+
 ### Retrievable Tasks
 Once <code>RetrievableTask</code> is extended, this allows for <code>@ThreadSafe</code> concurrent execution where business logic executed <i>does</i> need to return back an object. As a result, calling the getVal() method for a Retrievable task returns the object of type T (via use of Java generics) - which is blocked until all logic in the execute() method has terminated. 
 <br/><br/>
@@ -53,7 +67,7 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
                                                 // is blocked until its execute() method has completed.
     }
     
-    private class RTask extends RetrievableTask<String>{
+    private static class RTask extends RetrievableTask<String>{
       @Override
       protected void execute(){
         //do work, execute business logic
@@ -62,7 +76,7 @@ Regardless on the type of <code>Task</code> needed, each respective <code>Task</
       }
     }
     
-    private class NRTask extends NonRetrievableTask{
+    private static class NRTask extends NonRetrievableTask{
       @Override
       protected void execute(){
         //do work, execute business logic
