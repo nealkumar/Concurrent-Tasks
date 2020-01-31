@@ -5,7 +5,7 @@
 
 	<groupId>com.nealk</groupId>
 	<artifactId>nealk-sdk-concurrent-lib</artifactId>
-	<version>1.11-SNAPSHOT</version>
+	<version>1.11</version>
 
 	<name>Concurrent Library</name>
 	<description>An easy-to-consume concurrency library allowing for "Tasks" to execute business logic in a thread safe manner. This library helps users achieve multi-threading in their applications without worrying about synchronization and blocking for race conditions.</description>
@@ -61,7 +61,7 @@
 		<connection>scm:git:git://github.com/nealkumar/Concurrent-Tasks-Library.git</connection>
 		<developerConnection>scm:git:git@github.com:nealkumar/Concurrent-Tasks-Library.git</developerConnection>
 		<url>https://github.com/nealkumar/Concurrent-Tasks-Library</url>
-		<tag>HEAD</tag>
+		<tag>v1.11</tag>
 	</scm>
 
 	<profiles>
