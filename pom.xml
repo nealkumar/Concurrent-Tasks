@@ -3,13 +3,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.nealk.concurrent</groupId>
-	<artifactId>concurrent-tasks</artifactId>
+	<groupId>com.nealk</groupId>
+	<artifactId>nealk-sdk-concurrent-lib</artifactId>
 	<version>1.11-SNAPSHOT</version>
 
 	<name>Concurrent Tasks</name>
 	<description>An easy-to-consume concurrency library allowing for "Tasks" to execute business logic in a thread safe manner. This library helps users achieve multi-threading in their applications without worrying about synchronization and blocking for race conditions.</description>
-	<!-- FIXME change it to the project's website -->
 	<url>https://github.com/nealkumar/Concurrent-Tasks-Library</url>
 
 	<properties>
@@ -21,8 +20,6 @@
 	<developers>
 		<developer>
 			<name>Neal Kumar</name>
-			<id>1</id>
-			<timezone>EST</timezone>
 			<email>nealk@nealk.com</email>
 			<organization>nealk.com</organization>
 		</developer>
