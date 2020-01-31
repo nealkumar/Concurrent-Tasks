@@ -9,7 +9,7 @@
 
 	<name>Concurrent Library</name>
 	<description>An easy-to-consume concurrency library allowing for "Tasks" to execute business logic in a thread safe manner. This library helps users achieve multi-threading in their applications without worrying about synchronization and blocking for race conditions.</description>
-	<url>https://github.com/nealkumar/Concurrent-Tasks-Library</url>
+	<url>https://github.com/nealkumar/NealK-SDK-Concurrent-Library</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -58,9 +58,9 @@
 	</dependencies>
 
 	<scm>
-		<connection>scm:git:git://github.com/nealkumar/Concurrent-Tasks-Library.git</connection>
-		<developerConnection>scm:git:git@github.com:nealkumar/Concurrent-Tasks-Library.git</developerConnection>
-		<url>https://github.com/nealkumar/Concurrent-Tasks-Library</url>
+		<connection>scm:git:git://github.com/nealkumar/NealK-SDK-Concurrent-Library.git</connection>
+		<developerConnection>scm:git:git@github.com:nealkumar/NealK-SDK-Concurrent-Library.git</developerConnection>
+		<url>https://github.com/nealkumar/NealK-SDK-Concurrent-Library</url>
 		<tag>HEAD</tag>
 	</scm>
 
