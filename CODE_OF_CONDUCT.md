@@ -75,5 +75,5 @@ available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.ht
 For answers to common questions about this code of conduct, see
 https://www.contributor-covenant.org/faq
 
-Thanks in advance for abiding by the guidelines,
+Thanks in advance for abiding by these guidelines,</br>
 Neal
