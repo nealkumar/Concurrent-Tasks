@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.nealk</groupId>
-	<artifactId>nealk-sdk-concurrent-lib</artifactId>
+	<artifactId>concurrent-tasks</artifactId>
 	<version>1.21-SNAPSHOT</version>
 
 	<name>Concurrent Library</name>
